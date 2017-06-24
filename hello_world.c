@@ -17,6 +17,16 @@ int main(){
     return 0;
 }
 
+/*use F9 and F10 for compiling and running if using devC++, on linux create a file using gedit or nano or vim and run
+gcc -o hello hello_world.c 
+
+and then
+
+./hello
+
+on terminal.
+
+*/
 /* output 
 
 Hello,World!
