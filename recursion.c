@@ -8,7 +8,7 @@ void main(){
 	printf("%d \n",a);
 	printf("%d \n",b);
 	void fun(int a, int b){
-		printf("%d \n",a+b);
+		printf("%d \t",a+b);
 		num--;
 		if(num)
 		fun(b,a+b);		
@@ -19,14 +19,5 @@ void main(){
 }
 
 /*output
-0
-1
-1
-2
-3
-5
-8
-13
-21
-34
+0	1	1	2	3	5	8	13	21	34
 */
