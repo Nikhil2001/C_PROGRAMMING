@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int num=10;
+int num=10;  // number of numbers in fibinocci series
 void main(){
 	num=num-2;
 	int a=0,b=1;
