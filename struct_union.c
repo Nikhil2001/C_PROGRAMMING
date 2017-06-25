@@ -32,7 +32,7 @@ void main(){
 	u q;  //initialise union
 	q.x=10;
 	printf("%d \n",q.x);
-	q.y=16;   //x value is replaced by y  for assignong y
+	q.y=16;   //x value is replaced by y  for assignong y due to one single memory
 	printf("%d \n ",q.x);
 	
 
@@ -40,7 +40,7 @@ void main(){
 
 
 
-/*
+/*output:
 25
 25
 10
